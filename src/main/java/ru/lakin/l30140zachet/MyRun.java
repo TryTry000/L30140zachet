@@ -29,9 +29,9 @@ public class MyRun extends Application {
     // событие "выбрали букву (раньше был цвет)"
     private void showColors(CheckBox clrRed, CheckBox clrGreen, CheckBox clrBlue, Label selectedColors) {
         String allSelected = "Выбрано: ";
-        if (clrRed.isSelected()) allSelected += "Кр ";
-        if (clrGreen.isSelected()) allSelected += "Зл ";
-        if (clrBlue.isSelected()) allSelected += "Гл";
+        if (clrRed.isSelected()) allSelected += "Аз ";
+        if (clrGreen.isSelected()) allSelected += "Буки ";
+        if (clrBlue.isSelected()) allSelected += "Веди";
         if (allSelected.equals("Выбрано: ")) selectedColors.setText("ничо :(");
         else selectedColors.setText(allSelected);
     }
